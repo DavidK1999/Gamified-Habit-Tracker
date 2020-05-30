@@ -1,0 +1,26 @@
+#profile-container {
+  padding: 2rem;
+}
+
+#layout {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu {
+  width: 100%;
+}
+
+#habits-container {
+  padding: 2rem;
+}
+
+.habit {
+  border: 1px solid black;
+}
+
+.add-habit {
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
