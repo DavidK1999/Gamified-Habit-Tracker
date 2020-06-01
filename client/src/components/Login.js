@@ -1,12 +1,14 @@
 import React from 'react'
 import {Form, Button} from 'semantic-ui-react'
+import {useRouteMatch} from 'react-router-dom'
 
 const Login = () => {
+    const match = useRouteMatch();
     return (
         <Form className="auth-form">
             <h1>Login</h1>
             <Form.Field>
-                <label>Email</label>
+                <label>Login</label>
                 <input placeholder="Enter your email"/>
             </Form.Field>
             
